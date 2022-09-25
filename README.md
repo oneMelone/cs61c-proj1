@@ -1,3 +1,5 @@
 # su20-proj1-starter
 
-Please add a description about what you created! Also add lessons you learned or bugs you encountered. 
+Two bugs waste about an hour to fix:
+1. strncmp returns zero when two strings are equal, whereas the function used to check if two strings are the same should return 1 when two strings are equal, so ! should be added before strncmp function.
+2. Variable "wordlowernofirst" is miswritten as "wordlower".
